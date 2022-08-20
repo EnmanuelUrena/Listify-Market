@@ -1,0 +1,12 @@
+D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\Application\bin\Debug\net6.0\Application.deps.json
+D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\Application\bin\Debug\net6.0\Application.dll
+D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\Application\bin\Debug\net6.0\Application.pdb
+D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\Application\obj\Debug\net6.0\Application.dll
+D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\Application\obj\Debug\net6.0\refint\Application.dll
+D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\Application\obj\Debug\net6.0\Application.pdb
+D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\Application\obj\Debug\net6.0\ref\Application.dll
