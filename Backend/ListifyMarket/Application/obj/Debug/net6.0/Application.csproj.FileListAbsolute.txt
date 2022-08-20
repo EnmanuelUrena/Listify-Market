@@ -10,3 +10,6 @@ D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\Application\obj\Debug\n
 D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\Application\obj\Debug\net6.0\refint\Application.dll
 D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\Application\obj\Debug\net6.0\Application.pdb
 D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\Application\obj\Debug\net6.0\ref\Application.dll
+D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\Application\bin\Debug\net6.0\Domain.dll
+D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\Application\bin\Debug\net6.0\Domain.pdb
+D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\Application\obj\Debug\net6.0\Application.csproj.CopyComplete

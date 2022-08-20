@@ -67,3 +67,5 @@ D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\WebAPI\obj\Debug\net6.0
 D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\WebAPI\obj\Debug\net6.0\WebAPI.pdb
 D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\WebAPI\obj\Debug\net6.0\WebAPI.genruntimeconfig.cache
 D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\WebAPI\obj\Debug\net6.0\ref\WebAPI.dll
+D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\WebAPI\bin\Debug\net6.0\Application.dll
+D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\WebAPI\bin\Debug\net6.0\Application.pdb

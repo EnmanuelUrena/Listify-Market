@@ -15,3 +15,5 @@ D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\Infrastructure\obj\Debu
 D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
 D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\Infrastructure\obj\Debug\net6.0\Infrastructure.genruntimeconfig.cache
 D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
+D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\Infrastructure\bin\Debug\net6.0\Application.dll
+D:\Documentos\Repos\Listify-Market\Backend\ListifyMarket\Infrastructure\bin\Debug\net6.0\Application.pdb

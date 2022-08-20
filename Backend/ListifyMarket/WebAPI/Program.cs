@@ -1,5 +1,8 @@
+using Application.Common.Interfaces;
 using Infrastructure;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 
 namespace WebAPI
 {
@@ -12,6 +15,10 @@ namespace WebAPI
             // ConfigureService.
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
             builder.Services.AddDbContext<ApplicationDbContext>(x => x.UseSqlServer(connectionString));
+
+            //Create my own ServiceConfiguration
+            IServiceCollection services = new ServiceCollection();
+            services.ConfigureServices();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -44,5 +51,6 @@ namespace WebAPI
 
             app.Run();
         }
+
     }
 }

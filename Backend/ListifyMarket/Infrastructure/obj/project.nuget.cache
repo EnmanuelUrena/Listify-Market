@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "sTjG+4GAW+gix6KK2XF9PI6Dl8VsplYpMqMIqLQBac7arWj80tR8iUQT5NyYOoiJhL0kLQIrTaL3lG7VJZEWxg==",
+  "dgSpecHash": "imljgHCUN64yIEIieO8IzaU9fo4lTeJhEIldmkAUM1Tj3rEpDnF3PNY9SAsmbDQvT2iLHWFya84CcZjA70WuKg==",
   "success": true,
   "projectFilePath": "D:\\Documentos\\Repos\\Listify-Market\\Backend\\ListifyMarket\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rafae\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\rafae\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\rafae\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\rafae\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
     "C:\\Users\\rafae\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\rafae\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\rafae\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",

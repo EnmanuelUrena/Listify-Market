@@ -521,6 +521,17 @@
           }
         }
       },
+      "Application/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0",
+          "MediatR": "10.0.1",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1",
+          "Microsoft.EntityFrameworkCore": "6.0.8"
+        },
+        "runtime": {
+          "Application.dll": {}
+        }
+      },
       "Domain/1.0.0": {
         "runtime": {
           "Domain.dll": {}
@@ -528,6 +539,7 @@
       },
       "Infrastructure/1.0.0": {
         "dependencies": {
+          "Application": "1.0.0",
           "Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8",
@@ -908,6 +920,11 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Domain/1.0.0": {
       "type": "project",

@@ -1,4 +1,5 @@
-﻿using Domain.Entities;
+﻿using Application.Common.Interfaces;
+using Domain.Entities;
 using Infrastructure.Persistance.Configurations;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -10,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Infrastructure;
 
-public class ApplicationDbContext : DbContext
+public class ApplicationDbContext : DbContext, IApplicationDbContext
 {
     public DbSet<AppUser> AppUsers { get; set; }
 
@@ -23,6 +24,12 @@ public class ApplicationDbContext : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.ApplyConfiguration(new AppUserConfiguration());
+    }
+
+    public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken)
+    {
+        var result = await base.SaveChangesAsync(cancellationToken);
+        return result;
     }
 
 }
