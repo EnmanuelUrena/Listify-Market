@@ -20,6 +20,14 @@ namespace WebAPI
 
             var app = builder.Build();
 
+            //Generate seed data
+            using (var scope = app.Services.CreateScope())
+            {
+                var service = scope.ServiceProvider;
+                var context = service.GetRequiredService<ApplicationDbContext>();
+                DbInitializer.Initialize(context);
+            }
+
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {

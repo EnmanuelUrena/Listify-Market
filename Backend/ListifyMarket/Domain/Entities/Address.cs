@@ -13,4 +13,12 @@ public class Address //Jut an example
     public string Province { get; set; }
     public string ZipCode { get; set; }
 
+    public Address(string street, string city, string province, string zipCode)
+    {
+        Street = street;
+        City = city;
+        Province = province;
+        ZipCode = zipCode;
+    }
+
 }
