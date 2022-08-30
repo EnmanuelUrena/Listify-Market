@@ -11,6 +11,7 @@ namespace Application.AppUsers.Commands.UserLogin;
 
 public class UserLoginCommand : IRequest<Guid>
 {
+    public string Name { get; set; }
     public string Account { get; set; }
     public string Password { get; set; }
     public string Street { get; set; }
@@ -19,9 +20,10 @@ public class UserLoginCommand : IRequest<Guid>
     public string ZipCode { get; set; }
 
 
-    public UserLoginCommand(string account, string password, string street,
+    public UserLoginCommand(string name, string account, string password, string street,
         string city, string province, string zipCode)
     {
+        Name = name;
         Account = account;
         Password = password;
         Street = street;
@@ -44,6 +46,7 @@ public class UserLoginHandler : IRequestHandler<UserLoginCommand, Guid>
     {
         var appUser = new AppUser()
         {
+            Name = request.Name,
             Account = request.Account,
             Password = request.Password,
             Address = new Address(

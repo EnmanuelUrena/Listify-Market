@@ -17,8 +17,8 @@ namespace WebAPI
             builder.Services.AddDbContext<ApplicationDbContext>(x => x.UseSqlServer(connectionString));
 
             //Create my own ServiceConfiguration
-            IServiceCollection services = new ServiceCollection();
-            services.ConfigureServices();
+            builder.Services.ConfigureServices();
+            builder.Services.AddScoped<IApplicationDbContext, ApplicationDbContext>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

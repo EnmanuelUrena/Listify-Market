@@ -1,4 +1,5 @@
-﻿using MediatR;
+﻿using Application.Common.Interfaces;
+using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -7,7 +8,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application;
+namespace Infrastructure;
 
 public static class ExtensionMethod
 {
